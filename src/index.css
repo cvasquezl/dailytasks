@@ -3,6 +3,11 @@ body{
     background-image: url('./image/fondodt2.jpg');
     background-size: 100%;
 }
+@media (max-width:764px) {
+    body{
+        background-size: 500px 670px;
+    }
+}
 .navbar{
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
