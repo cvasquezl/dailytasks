@@ -12,7 +12,7 @@ export function App() {
     <div>
       <nav className="navbar" style={{ backgroundColor }}>
         <div className="container-fluid">
-          <a className="navbar-brand " href="#">
+          <a className="navbar-brand " href="/">
             <div className="row col-12 align-items-end">
               <img
                 src={imagen}

@@ -12,7 +12,6 @@ const Form = () => {
   const [asignatura, setAsignatura] = useState("");
   const [loading, setLoading] = useState(false);
   const [alert, setAlert] = useState(false);
-  const [archivos, setArchivos] = useState();
   let files;
 
   const handleTituloChange = (event) => {
