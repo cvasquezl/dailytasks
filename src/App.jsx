@@ -5,6 +5,7 @@ import { Route, Routes} from 'react-router-dom';
 import Galeria from "./galeria";
 import Home from "./home";
 import Form from "./form"
+import Register from "./register";
 
 export function App() {
   const backgroundColor = "#A2D2FF";
@@ -34,6 +35,7 @@ export function App() {
         <Route path="/" Component={Home}/>
         <Route path="/galeria/:id" Component={Galeria}/>
         <Route path="/formulario" Component={Form}/>
+        <Route path="/register" Component={Register}/>
       </Routes>
     </div>
   );
