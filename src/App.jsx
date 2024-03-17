@@ -1,5 +1,5 @@
 import React from "react";
-import imagen from "./image/logo512.png";
+import imagen from "./image/logodts1.png";
 import "./index.css";
 import { Route, Routes} from 'react-router-dom';
 import Galeria from "./galeria";
@@ -7,25 +7,26 @@ import Home from "./home";
 import Form from "./form"
 
 export function App() {
-  const backgroundColor = "#A2D2FF";
   return (
     <div>
-      <nav className="navbar" style={{ backgroundColor }}>
+      <div  className="header">
+        <a className="navbar-brand " href="/">
+            
+            <img
+              src={imagen}
+              alt="Logo"
+              width="130"
+              height="124"
+              className="d-inline-block align-text-top"
+            ></img>
+          
+        </a>
+      <nav className="navbar">
         <div className="container-fluid">
-          <a className="navbar-brand " href="/">
-            <div className="row col-12 align-items-end">
-              <img
-                src={imagen}
-                alt="Logo"
-                width="80"
-                height="64"
-                className="d-inline-block align-text-top col-6"
-              ></img>
-              <h3 className="col-4">Daily Tasks</h3>
-            </div>
-          </a>
         </div>
       </nav>
+      <button type="button" class="boton1 btn btn-primary btn-lg">Tutorial</button>
+      </div>
       {/* TODO: - base de datos
                 - crear componente taskDetail
                 - crear boton taskUpdate dentro de la tarea*/}

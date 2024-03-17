@@ -1,6 +1,6 @@
 body{
     font-family: 'Patrick Hand', cursive;
-    background-image: url('./image/fondodt2.jpg');
+    background-image: url('./image/papellustre.jpg');
     background-size: 100%;
 }
 @media (max-width:764px) {
@@ -8,10 +8,26 @@ body{
         background-size: 500px 670px;
     }
 }
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-brand{
+    display: flex;
+
+}
 .navbar{
+    visibility: hidden;
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
-    background: linear-gradient(to left, rgba(126,0,127,1), rgba(0,90,127,1))
+    background-color: white;
+    border: #7F7C82 5px solid;
+    height: 80px;
+    width: 70%;
+}
+.boton1{
+    margin: 15px;
+    height: 50px;
 }
 h3{
     color:#7F7C82;
@@ -36,7 +52,7 @@ h1, h2{
     font-weight: bold;
 }
 .box{
-    border: rgba(86,152,252,1) 15px solid;
+    border: #7F7C82 15px solid;
     background-color: #ffff;
     border-radius: 25px;
     padding-top: 12px;
