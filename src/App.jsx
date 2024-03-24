@@ -23,6 +23,7 @@ export function App() {
         </a>
       <nav className="navbar">
         <div className="container-fluid">
+        <h1>7°B</h1>
         </div>
       </nav>
 

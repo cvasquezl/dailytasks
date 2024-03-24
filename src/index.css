@@ -17,13 +17,21 @@ body{
 
 }
 .navbar{
-    visibility: hidden;
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
     background-color: white;
     border: #7F7C82 5px solid;
     height: 80px;
     width: 70%;
+}
+.navbar .container-fluid{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+.navbar .container-fluid h1{
+    padding: 0 15px 0 15px; 
 }
 .boton1{
     margin: 15px;
