@@ -25,7 +25,9 @@ export function App() {
         <div className="container-fluid">
         </div>
       </nav>
-      <button type="button" class="boton1 btn btn-primary btn-lg">Tutorial</button>
+
+        <a href="https://sway.cloud.microsoft/67nEBAFGBAXE42gD?ref=Link" class="boton1 btn btn-primary btn-lg">Tutorial</a>
+        
       </div>
       {/* TODO: - base de datos
                 - crear componente taskDetail
