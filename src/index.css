@@ -20,7 +20,7 @@ body{
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
     background-color: white;
-    border: #7F7C82 5px solid;
+    border: #77EDA7 5px solid;
     height: 80px;
     width: 70%;
 }
@@ -32,6 +32,10 @@ body{
 }
 .navbar .container-fluid h1{
     padding: 0 15px 0 15px; 
+    background-color: #77EDA7;
+}
+.titulo{
+    color: #006633;
 }
 .boton1{
     margin: 15px;
@@ -60,7 +64,7 @@ h1, h2{
     font-weight: bold;
 }
 .box{
-    border: #7F7C82 15px solid;
+    border: #77EDA7 15px solid;
     background-color: #ffff;
     border-radius: 25px;
     padding-top: 12px;
